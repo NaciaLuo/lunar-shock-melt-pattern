@@ -1,0 +1,38 @@
+#ISMAT ! iSale material input file identification string
+--------------------------------------------------------------------------------
+MATNAME      Material name                                                : mantle_
+EOSNAME      EOS name                                                     : dunite_
+EOSTYPE      EOS type                                                     : aneos
+STRMOD       Strength model                                               : ROCK
+DAMMOD       Damage model                                                 : IVANOV
+ACFL         Acoustic fluidisation                                        : BLOCK
+PORMOD       Porosity model                                               : NONE
+DILMOD       Dilatancy model                                              : NONE
+THSOFT       Thermal softening                                            : OHNAKA
+LDWEAK       Low density weakening                                        : POLY
+VISCO        Viscoelasticity                                              : NONE
+--------------------------------------------------------------------------------
+---------general parameters ----------------------------------------------------
+POIS         pois                                                         : 2.5D-01
+---------thermal softening -----------------------------------------------------
+TFRAC        tfrac                                                        : 1.2D+00
+---------thermal parameters ----------------------------------------------------
+TMELT0       tmelt0                                                       : 1.373D+03
+ASIMON       a_simon                                                      : 1.52D+09
+CSIMON       c_simon                                                      : 4.05D+00
+---------shear strength of intact material -------------------------------------
+YINT0        yint0                                                        : 1.D+07
+FRICINT      fricint                                                      : 1.2D+00
+YLIMINT      ylimint                                                      : 3.5D+09
+---------shear strength of damaged material ------------------------------------
+YDAM0        ydam0 (ycoh)                                                 : 1.D+04
+FRICDAM      fricdam                                                      : 6.D-01
+YLIMDAM      ylimdam                                                      : 3.26D+09
+---------shear damage (Ivanov) -------------------------------------------------
+IVANOV_A     Damage parameter                                             : 1.D-04
+IVANOV_B     Damage parameter                                             : 1.D-11
+IVANOV_C     Damage parameter                                             : 3.D+08
+---------acoustic fluidization (block model) -----------------------------------
+GAMETA       gam_eta                                                      : 1.D-03
+GAMBETA      gam_beta                                                     : 2.D+02
+<<END ! used to identify the end of this file
