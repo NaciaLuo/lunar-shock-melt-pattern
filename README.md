@@ -13,8 +13,8 @@ For more information about iSALE, including documentation and resources, please 
 Simulations were performed with varying impact parameters. To distinguish them, the folders containing the modeling results follow the naming convention: `I(impactor diameter)_deg(impact angle)_V(impact velocity)`, where the units are km, degree, and km/s, respectively. For example, **I06_deg20_V15** stands for **I = 6 km**, **deg = 20 degrees**, **V = 15 km/s**.
 
 ## iSALE input files
-- **15 CPPR models**: Low-resolution ejecta models
-- **60 CPPR models**: High-resolution melt models
+- **15 CPPR models**: Impact settings of low-resolution ejecta models
+- **60 CPPR models**: Impact settings of high-resolution melt models
 - **material.inp**: Material parameters used for all simulations
 
 ## Figure 4 Melt zones
